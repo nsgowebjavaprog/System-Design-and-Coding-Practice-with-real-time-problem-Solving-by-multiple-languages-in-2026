@@ -1,0 +1,226 @@
+## 🟢 WEEK 1 – DSA BASICS + ARRAYS (FOUNDATION)
+
+### Topics
+
+* Time & Space Complexity
+* Big-O (O(1), O(n), O(log n), O(n²))
+* Arrays basics
+* Prefix sum
+* Sliding window
+* Two pointers
+
+### Must-Do Problems (Daily 5–8)
+##
+* Reverse array
+* Max / Min in array
+* Second largest element
+* Move zeros
+* Two Sum
+* Best Time to Buy & Sell Stock
+* Subarray sum = k
+* Max subarray (Kadane)
+##
+🎯 **Interview Focus**: Freshers, service companies (TCS, Infosys, Wipro)
+
+---
+
+## 🟢 WEEK 2 – STRINGS + HASHING
+
+### Topics
+
+* String manipulation
+* Frequency counting
+* HashMap / Dictionary
+* Anagrams
+* Pattern matching basics
+
+### Problems
+
+* Reverse string
+* Palindrome check
+* Valid anagram
+* First non-repeating char
+* Longest substring without repeat
+* Group anagrams
+* String compression
+* Isomorphic strings
+
+🎯 **Very high frequency** in interviews
+
+---
+
+## 🟡 WEEK 3 – SEARCHING + SORTING
+
+### Topics
+
+* Linear & Binary Search
+* First / Last occurrence
+* Search in rotated array
+* Sorting algorithms
+
+  * Bubble, Selection, Insertion (theory)
+  * Merge Sort
+  * Quick Sort
+
+### Problems
+
+* Binary search
+* Lower / Upper bound
+* Kth largest element
+* Sort 0s,1s,2s
+* Merge two sorted arrays
+* Inversion count
+* Aggressive cows (binary search on answer)
+
+🎯 Asked in **product + mid-tier companies**
+
+---
+
+## 🟡 WEEK 4 – STACK & QUEUE
+
+### Topics
+
+* Stack (array & linked list)
+* Queue
+* Deque
+* Monotonic stack
+
+### Problems
+
+* Valid parentheses
+* Next greater element
+* Stock span
+* Min stack
+* Implement queue using stack
+* Sliding window maximum
+* Largest rectangle in histogram
+
+🔥 **IMPORTANT for Java interviews**
+
+---
+
+## 🟠 WEEK 5 – LINKED LIST
+
+### Topics
+
+* Singly / Doubly linked list
+* Fast & slow pointer
+* Cycle detection
+
+### Problems
+
+* Reverse linked list
+* Middle of linked list
+* Detect cycle
+* Remove Nth node
+* Merge two sorted lists
+* Intersection of linked list
+* Palindrome linked list
+
+🎯 **Very common in interviews**
+
+---
+
+## 🟠 WEEK 6 – RECURSION + BACKTRACKING
+
+### Topics
+
+* Recursion basics
+* Call stack
+* Backtracking
+
+### Problems
+
+* Fibonacci (recursive & iterative)
+* Subsets
+* Permutations
+* Combination sum
+* N-Queens
+* Rat in a maze
+* Generate parentheses
+
+🧠 Improves **problem-solving thinking**
+
+---
+
+## 🔴 WEEK 7 – TREES & BST
+
+### Topics
+
+* Binary Tree
+* Traversals (In/Pre/Post/Level)
+* Height / Diameter
+* BST operations
+
+### Problems
+
+* Tree traversals
+* Max depth
+* Balanced tree
+* Lowest common ancestor
+* Validate BST
+* Kth smallest in BST
+* Serialize & Deserialize tree
+
+🔥 **High weightage in product companies**
+
+---
+
+## 🔴 WEEK 8 – GRAPH + DP (ADVANCED)
+
+### Graph Topics
+
+* BFS / DFS
+* Cycle detection
+* Topological sort
+
+### DP Topics
+
+* 1D DP
+* 2D DP
+* Memoization vs Tabulation
+
+### Problems
+
+* Number of islands
+* Flood fill
+* Clone graph
+* Fibonacci DP
+* House robber
+* Coin change
+* Longest common subsequence
+* 0/1 Knapsack
+
+🎯 **This week separates average from strong candidates**
+
+---
+
+# 🧠 FINAL 10 DAYS (VERY IMPORTANT)
+
+### Daily:
+
+* 5 mixed problems
+* Revise:
+
+  * Arrays
+  * Hashing
+  * Stack
+  * Tree
+  * DP
+
+### Mock Interviews:
+
+* Explain solution verbally
+* Dry run
+* Write clean code
+
+---
+
+# 🧰 Platforms to Use
+
+* **LeetCode**
+* **GeeksforGeeks**
+* **Coding Ninjas**
+* **InterviewBit**
+
+---
