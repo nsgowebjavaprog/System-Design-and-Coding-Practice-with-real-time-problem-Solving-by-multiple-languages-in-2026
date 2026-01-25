@@ -1,0 +1,302 @@
+## TOP 25 JAVA CODING QUESTIONS (WITH SIMPLE CODE)
+
+---
+
+### 1️⃣ Reverse a String
+
+```java
+String s = "java";
+String r = "";
+for (int i = s.length()-1; i >= 0; i--)
+    r += s.charAt(i);
+System.out.println(r);
+```
+
+---
+
+### 2️⃣ Palindrome String
+
+```java
+String s = "maam";
+int l=0, r=s.length()-1;
+boolean ok = true;
+while(l<r){
+    if(s.charAt(l)!=s.charAt(r)) ok=false;
+    l++; r--;
+}
+System.out.println(ok);
+```
+
+---
+
+### 3️⃣ Count Vowels
+
+```java
+String s="java";
+int c=0;
+for(char ch:s.toCharArray())
+    if("aeiouAEIOU".indexOf(ch)!=-1) c++;
+System.out.println(c);
+```
+
+---
+
+### 4️⃣ Reverse Number
+
+```java
+int n=123, r=0;
+while(n>0){
+    r=r*10+n%10;
+    n/=10;
+}
+System.out.println(r);
+```
+
+---
+
+### 5️⃣ Palindrome Number
+
+```java
+int n=121, t=n, r=0;
+while(n>0){
+    r=r*10+n%10;
+    n/=10;
+}
+System.out.println(t==r);
+```
+
+---
+
+### 6️⃣ Prime Number
+
+```java
+int n=7;
+boolean p=n>1;
+for(int i=2;i*i<=n;i++)
+    if(n%i==0) p=false;
+System.out.println(p);
+```
+
+---
+
+### 7️⃣ Fibonacci Series
+
+```java
+int a=0,b=1;
+for(int i=0;i<5;i++){
+    System.out.print(a+" ");
+    int c=a+b; a=b; b=c;
+}
+```
+
+---
+
+### 8️⃣ Factorial
+
+```java
+int n=5,f=1;
+for(int i=1;i<=n;i++) f*=i;
+System.out.println(f);
+```
+
+---
+
+### 9️⃣ Largest Element in Array
+
+```java
+int[] a={1,5,3};
+int max=a[0];
+for(int i:a) if(i>max) max=i;
+System.out.println(max);
+```
+
+---
+
+### 🔟 Second Largest Element
+
+```java
+int[] a={1,5,3};
+int f=Integer.MIN_VALUE,s=Integer.MIN_VALUE;
+for(int n:a){
+    if(n>f){ s=f; f=n; }
+    else if(n>s && n!=f) s=n;
+}
+System.out.println(s);
+```
+
+---
+
+### 1️⃣1️⃣ Sum of Array
+
+```java
+int[] a={1,2,3};
+int sum=0;
+for(int i:a) sum+=i;
+System.out.println(sum);
+```
+
+---
+
+### 1️⃣2️⃣ Remove Duplicate Characters
+
+```java
+String s="program";
+String r="";
+for(char c:s.toCharArray())
+    if(r.indexOf(c)==-1) r+=c;
+System.out.println(r);
+```
+
+---
+
+### 1️⃣3️⃣ Count Words
+
+```java
+String s="java is easy";
+System.out.println(s.split(" ").length);
+```
+
+---
+
+### 1️⃣4️⃣ Swap Two Numbers
+
+```java
+int a=5,b=3;
+a=a+b; b=a-b; a=a-b;
+System.out.println(a+" "+b);
+```
+
+---
+
+### 1️⃣5️⃣ Missing Number
+
+```java
+int[] a={1,2,4,5};
+int n=5,sum=n*(n+1)/2;
+for(int i:a) sum-=i;
+System.out.println(sum);
+```
+
+---
+
+### 1️⃣6️⃣ Check Even or Odd
+
+```java
+int n=6;
+System.out.println(n%2==0);
+```
+
+---
+
+### 1️⃣7️⃣ Valid Parentheses
+
+```java
+Stack<Character> st=new Stack<>();
+String s="(){}";
+for(char c:s.toCharArray()){
+    if(c=='('||c=='{'||c=='[') st.push(c);
+    else{
+        if(st.isEmpty()) System.out.println(false);
+        char t=st.pop();
+    }
+}
+System.out.println(st.isEmpty());
+```
+
+---
+
+### 1️⃣8️⃣ Merge Two Sorted Arrays
+
+```java
+int[] a={1,3}, b={2,4};
+int i=0,j=0;
+while(i<a.length && j<b.length)
+    System.out.print(a[i]<b[j]?a[i++]:b[j++]);
+```
+
+---
+
+### 1️⃣9️⃣ Linear Search
+
+```java
+int[] a={1,3,5};
+int k=3;
+for(int i=0;i<a.length;i++)
+    if(a[i]==k) System.out.println(i);
+```
+
+---
+
+### 2️⃣0️⃣ Binary Search
+
+```java
+int[] a={1,3,5,7};
+int l=0,r=a.length-1,k=5;
+while(l<=r){
+    int m=(l+r)/2;
+    if(a[m]==k) System.out.println(m);
+    if(a[m]<k) l=m+1; else r=m-1;
+}
+```
+
+---
+
+### 2️⃣1️⃣ Sort Array (Bubble Sort)
+
+```java
+int[] a={3,1,2};
+for(int i=0;i<a.length;i++)
+ for(int j=0;j<a.length-1;j++)
+  if(a[j]>a[j+1]){
+    int t=a[j]; a[j]=a[j+1]; a[j+1]=t;
+  }
+```
+
+---
+
+### 2️⃣2️⃣ Count Frequency
+
+```java
+String s="java";
+int[] f=new int[256];
+for(char c:s.toCharArray()) f[c]++;
+System.out.println(f['a']);
+```
+
+---
+
+### 2️⃣3️⃣ Reverse Array
+
+```java
+int[] a={1,2,3};
+for(int i=a.length-1;i>=0;i--)
+    System.out.print(a[i]);
+```
+
+---
+
+### 2️⃣4️⃣ Armstrong Number
+
+```java
+int n=153,t=n,s=0;
+while(n>0){
+    int d=n%10;
+    s+=d*d*d;
+    n/=10;
+}
+System.out.println(s==t);
+```
+
+---
+
+### 2️⃣5️⃣ Anagram Check
+
+```java
+char[] a="listen".toCharArray();
+char[] b="silent".toCharArray();
+Arrays.sort(a);
+Arrays.sort(b);
+System.out.println(Arrays.equals(a,b));
+```
+
+---
